@@ -1,0 +1,122 @@
+.mtk1 {
+    color: transparent;
+    background-image: linear-gradient(to right top, rgb(59, 8, 243), rgb(4, 179, 248));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.mtk4 {
+    color: transparent;
+    background-image: linear-gradient(to right top, rgb(28, 243, 8), rgb(183, 248, 4));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.mtk5 {
+    color: transparent;
+    background-image: linear-gradient(to right top, rgb(176, 8, 243), rgb(248, 4, 118));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.mtk10 {
+    color: transparent;
+    background-image: linear-gradient(to right top, rgb(243 8 8), rgb(248 4 4));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.mtk14 {
+    color: transparent;
+    background-image: linear-gradient(to right top, rgb(248, 93, 4), rgb(243 8 8));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.mtk15 {
+    color: transparent;
+    background-image: linear-gradient(to right top, rgb(243, 8, 137), rgb(228, 4, 248));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.mtk16 {
+    color: transparent;
+    background-image: linear-gradient(to right top, rgb(9, 45, 249), rgb(243, 8, 8));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.mtk17 {
+    color: transparent;
+    background-image: linear-gradient(to right top, rgb(8 156 243), rgb(4, 248, 134));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.line-numbers {
+    color: transparent;
+    background-image: linear-gradient(to right top, rgb(243 95 8), rgb(4 248 18));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.monaco-sash {
+    /*background: linear-gradient(-50deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);*/
+    background: linear-gradient(-45deg, #ff0000, #ff8700, #ffd300, #deff0a, #a1ff0a, #0aff99, #0aefff, #147df5, #580aff, #be0aff);
+    background-size: 400% 400%;
+    animation: gradient 5s linear infinite alternate;
+}
+
+.monaco-breadcrumbs {
+    background-color: #191a21;
+}
+
+.tabs-container {
+    background: #000;
+}
+
+.items-container {
+    background: #000;
+}
+
+.monaco-scrollable-element>.scrollbar>.slider {
+    background-image: linear-gradient(to bottom, rgb(33, 238, 6), rgb(10, 192, 238));
+    border-radius: 10px;
+    width: 20px;
+}
+
+.monaco-scrollable-element>.scrollbar>.slider:hover {
+    background: linear-gradient(-45deg, #ff0000, #ff8700, #ffd300, #deff0a, #a1ff0a, #0aff99, #0aefff, #147df5, #580aff, #be0aff);
+    background-size: 400% 400%;
+    animation: gradient 5s linear infinite alternate;
+    width: 10px;
+    border-radius: 10px;
+}
+
+.monaco-breadcrumbs {
+    background: #313131;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
