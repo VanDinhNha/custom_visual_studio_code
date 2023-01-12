@@ -5,13 +5,21 @@
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
+.mtk3 {
+    color: transparent;
+    background-image: linear-gradient(to right top, rgb(168, 107, 255), rgb(28, 4, 248));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-style: italic;
+}
 .mtk4 {
     color: transparent;
     background-image: linear-gradient(to right top, rgb(28, 243, 8), rgb(183, 248, 4));
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-style: italic;
 }
 
 .mtk5 {
@@ -29,6 +37,13 @@
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.mtk13 {
+    color: transparent;
+    background-image: linear-gradient(to right top, rgb(57, 4, 248), rgb(8, 243, 106));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
 .mtk14 {
     color: transparent;
@@ -40,7 +55,7 @@
 
 .mtk15 {
     color: transparent;
-    background-image: linear-gradient(to right top, rgb(243, 8, 137), rgb(228, 4, 248));
+    background-image: linear-gradient(to right top, rgb(243 8 8), rgb(248, 4, 118));
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -56,7 +71,21 @@
 
 .mtk17 {
     color: transparent;
-    background-image: linear-gradient(to right top, rgb(8 156 243), rgb(4, 248, 134));
+    background-image: linear-gradient(to right top, rgb(6, 240, 25), rgb(0, 179, 204));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.mtk18 {
+    color: transparent;
+    background-image: linear-gradient(to right top, rgb(130, 170, 255), rgb(129, 0, 204));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.mtk24 {
+    color: transparent;
+    background-image: linear-gradient(to right top, rgb(255, 255, 255), rgb(126, 126, 126));
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -68,13 +97,6 @@
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-}
-
-.monaco-sash {
-    /*background: linear-gradient(-50deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);*/
-    background: linear-gradient(-45deg, #ff0000, #ff8700, #ffd300, #deff0a, #a1ff0a, #0aff99, #0aefff, #147df5, #580aff, #be0aff);
-    background-size: 400% 400%;
-    animation: gradient 5s linear infinite alternate;
 }
 
 .monaco-breadcrumbs {
@@ -90,13 +112,13 @@
 }
 
 .monaco-scrollable-element>.scrollbar>.slider {
-    background-image: linear-gradient(to bottom, rgb(33, 238, 6), rgb(10, 192, 238));
+    background-image: linear-gradient(to bottom, rgba(238, 99, 6, 0.3), rgba(238, 10, 181, 0.3));
     border-radius: 10px;
     width: 20px;
 }
 
 .monaco-scrollable-element>.scrollbar>.slider:hover {
-    background: linear-gradient(-45deg, #ff0000, #ff8700, #ffd300, #deff0a, #a1ff0a, #0aff99, #0aefff, #147df5, #580aff, #be0aff);
+    background-image: linear-gradient(-45deg, #fc6c8f, #ff2ced, #ffb86c, #2cccff, #20e3b2, #ffcc70, #c850c0, #4158d0);
     background-size: 400% 400%;
     animation: gradient 5s linear infinite alternate;
     width: 10px;
@@ -105,6 +127,98 @@
 
 .monaco-breadcrumbs {
     background: #313131;
+
+}
+
+.editor-actions {
+    background: #000;
+}
+
+.monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab.active.tab-border-top>.tab-border-top-container {
+    background-size: 400% 400%;
+    background-image: linear-gradient(-45deg, #fc6c8f, #ff2ced, #ffb86c, #2cccff, #20e3b2, #ffcc70, #c850c0, #4158d0);
+    animation: gradient 5s ease alternate infinite;
+    height: 2px;
+}
+
+/*background editor*/
+.monaco-editor {
+     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("https://github.com/VanDinhNha/custom_visual_studio_code/blob/main/dG5jZ97V.jpg?raw=true");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: 50% 90%;   
+}
+.titlebar-container {
+    background-color: #000;
+}
+
+.monaco-breadcrumbs {
+    background-color: #000 !important;
+}
+
+/*icon hover*/
+.monaco-workbench .activitybar>.content :not(.monaco-menu)>.monaco-action-bar .action-label.codicon:hover {
+    color: #c1eb07;
+    font-size: 30px;
+    animation: squeeze3124 .9s both;
+}
+
+.monaco-editor .cursors-layer .cursor{
+    width: 1px !important;
+    transition: all .2s linear;
+    visibility: inherit !important;
+    animation: show-hidden 1s infinite linear alternate;
+    background-color: transparent !important;
+    background-image: linear-gradient(to bottom, #ff0000, #ff8700, #ffd300, #deff0a, #a1ff0a, #0aff99, #0aefff, #147df5, #580aff, #be0aff);
+}
+.monaco-list.list_id_5 .monaco-list-rows,
+.monaco-list.list_id_4 .monaco-list-rows{
+    background-color: #000 !important;
+}
+
+@keyframes squeeze3124 {
+ 0% {
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+ }
+
+ 30% {
+  -webkit-transform: scale3d(1.25, 0.75, 1);
+  transform: scale3d(1.25, 0.75, 1);
+ }
+
+ 40% {
+  -webkit-transform: scale3d(0.75, 1.25, 1);
+  transform: scale3d(0.75, 1.25, 1);
+ }
+
+ 50% {
+  -webkit-transform: scale3d(1.15, 0.85, 1);
+  transform: scale3d(1.15, 0.85, 1);
+ }
+
+ 65% {
+  -webkit-transform: scale3d(0.95, 1.05, 1);
+  transform: scale3d(0.95, 1.05, 1);
+ }
+
+ 75% {
+  -webkit-transform: scale3d(1.05, 0.95, 1);
+  transform: scale3d(1.05, 0.95, 1);
+ }
+
+ 100% {
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+ }
+}
+@keyframes show-hidden{
+    to{
+        height: 0%;
+        margin-top: 1rem;
+    }
 }
 
 @keyframes gradient {
