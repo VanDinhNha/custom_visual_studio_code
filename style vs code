@@ -47,7 +47,7 @@
 
 .mtk14 {
     color: transparent;
-    background-image: linear-gradient(to right top, rgb(248, 93, 4), rgb(243 8 8));
+    background-image: linear-gradient(to right top, rgb(190, 70, 0), rgb(243 8 8));
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -144,11 +144,32 @@
 /*background editor*/
 .monaco-editor {
      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url("https://github.com/VanDinhNha/custom_visual_studio_code/blob/main/dG5jZ97V.jpg?raw=true");
-    background-size: contain;
+        url("https://github.com/VanDinhNha/custom_visual_studio_code/blob/main/dG5jZ97V.jpg?raw=true") !important;
+    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: 50% 90%;   
+}
+.monaco-editor, .monaco-editor-background{
+    background-color: transparent !important;
+}
+.tab.tab-actions-right.sizing-fit.has-icon {
+    background-color: #000 !important;
+    border-right: 1px solid rgb(15 217 58) !important;
+}
+li.action-item.icon.checked{
+    background-color: rgba(126, 126, 126, .5);
+}
+a.action-label{
+    color: #00abab !important;
+}
+.badge-content{
+    border-style: none;
+    background-color: transparent !important;
+    background-image: linear-gradient(to bottom, rgba(228, 178, 13, 0.3), rgba(204, 238, 10, 0.3));
+}
+.margin-view-overlays{
+    background-color: #000 !important; 
 }
 .titlebar-container {
     background-color: #000;
@@ -158,11 +179,22 @@
     background-color: #000 !important;
 }
 
-/*icon hover*/
+.content{
+    background-color: #000 !important;
+}
+.composite{
+    background-color: #000 !important;
+}
+.pane-header{
+    background-color: rgb(54, 54, 54) !important;
+}
 .monaco-workbench .activitybar>.content :not(.monaco-menu)>.monaco-action-bar .action-label.codicon:hover {
-    color: #c1eb07;
+    color: #c1eb07 !important;
     font-size: 30px;
     animation: squeeze3124 .9s both;
+}
+.monaco-list.list_id_2 .monaco-list-rows{
+    background: transparent !important;
 }
 
 .monaco-editor .cursors-layer .cursor{
