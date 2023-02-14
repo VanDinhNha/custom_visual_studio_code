@@ -1,95 +1,71 @@
-.mtk1 {
+:root {
+    --gradient-dir1: 45deg;
+    --gradient-dir2: 90deg;
+    --gradient-dir3: -45deg;
+  }
+  .mtk1{
     color: transparent;
-    background-image: linear-gradient(to right top, rgb(59, 8, 243), rgb(4, 179, 248));
+    background-image: linear-gradient(to right top, #9b0101, #5400b4, #04b0f5);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+  .mtk3 {
+    color: transparent;
+    background-image: linear-gradient(to right top, #c29ffd, #ffb4dc, #fef0d1);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+  .mtk5 {
+    color: transparent;
+    background-image: linear-gradient(var(--gradient-dir1), #20e3b2, #4dd78a);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+  .mtk7 {
+    color: transparent;
+    background-image: linear-gradient(to right bottom, #fc6c8f, #ffb86c);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-}
-.mtk3 {
+  }
+  .mtk10,
+  .mtk15 {
     color: transparent;
-    background-image: linear-gradient(to right top, rgb(168, 107, 255), rgb(28, 4, 248));
+    background-image: linear-gradient(to left top, #fc6c8f, #ff2ced, #ffb86c);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-style: italic;
-}
-.mtk4 {
-    color: transparent;
-    background-image: linear-gradient(to right top, rgb(28, 243, 8), rgb(183, 248, 4));
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-style: italic;
-}
+  }
+  
 
-.mtk5 {
+  .mtk16 {
     color: transparent;
-    background-image: linear-gradient(to right top, rgb(176, 8, 243), rgb(248, 4, 118));
-    -webkit-background-clip: text;
+    background-image: linear-gradient(var(--gradient-dir1), #d66efd, #6a5af9);
     background-clip: text;
     -webkit-text-fill-color: transparent;
-}
+    -webkit-background-clip: text;
+  }
+  .mtk9,
+  .mtk17 {
+    color: transparent;
+    background-image: linear-gradient(to right top, #0072ff, #2cccff);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+  .mtk18 {
+    color: transparent;
+    background-image: linear-gradient(var(--gradient-dir2), #82aaff 50%, #3d6ef7);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-style: normal;
+  }
 
-.mtk10 {
-    color: transparent;
-    background-image: linear-gradient(to right top, rgb(243 8 8), rgb(248 4 4));
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-.mtk13 {
-    color: transparent;
-    background-image: linear-gradient(to right top, rgb(57, 4, 248), rgb(8, 243, 106));
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
 
-.mtk14 {
-    color: transparent;
-    background-image: linear-gradient(to right top, rgb(190, 70, 0), rgb(243 8 8));
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-.mtk15 {
-    color: transparent;
-    background-image: linear-gradient(to right top, rgb(243 8 8), rgb(248, 4, 118));
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-.mtk16 {
-    color: transparent;
-    background-image: linear-gradient(to right top, rgb(9, 45, 249), rgb(243, 8, 8));
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-.mtk17 {
-    color: transparent;
-    background-image: linear-gradient(to right top, rgb(6, 240, 25), rgb(0, 179, 204));
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-.mtk18 {
-    color: transparent;
-    background-image: linear-gradient(to right top, rgb(130, 170, 255), rgb(129, 0, 204));
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-.mtk24 {
-    color: transparent;
-    background-image: linear-gradient(to right top, rgb(255, 255, 255), rgb(126, 126, 126));
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
 
 .line-numbers {
     color: transparent;
@@ -154,7 +130,7 @@
     background-color: transparent !important;
 }
 .tab.tab-actions-right.sizing-fit.has-icon {
-    background-color: #000 !important;
+    background-color: #000 !important; 
     border-right: 1px solid rgb(15 217 58) !important;
 }
 li.action-item.icon.checked{
@@ -163,10 +139,13 @@ li.action-item.icon.checked{
 a.action-label{
     color: #00abab !important;
 }
+a.action-label:hover{
+    color: #ab0000 !important;
+}
 .badge-content{
     border-style: none;
     background-color: transparent !important;
-    background-image: linear-gradient(to bottom, rgba(228, 178, 13, 0.3), rgba(204, 238, 10, 0.3));
+    background-image: linear-gradient(to bottom, rgb(211, 71, 237), rgb(62, 2, 76));
 }
 .margin-view-overlays{
     background-color: #000 !important; 
