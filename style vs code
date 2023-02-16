@@ -154,28 +154,30 @@ a.action-label{
     width: 3px;
     height: 8px;
     border-left-width: inherit;
-    background: #a1ff0a;
-    box-shadow: 45px 0px #a1ff0a,
-    45px 40px #a1ff0a,
-    0px 40px #a1ff0a;
+    background: #f94a2e;
+    box-shadow: 45px 0px #65df47,
+    45px 40px #4e3ed3,
+    0px 40px #cdc82d;
 }
 .monaco-workbench .activitybar>.content :not(.monaco-menu)>.monaco-action-bar .action-item.checked .active-item-indicator::after{
     content: "";
     position: absolute;
-
     top: 0;
     left: 0;
     width: 8px;
     height: 2px;
-    background: #a1ff0a;
-    box-shadow: 40px 0px #a1ff0a,
-    40px 46px #a1ff0a,
-    0px 46px #a1ff0a;
+    background: #f94a2e;
+    box-shadow: 40px 0px #65df47,
+    40px 46px #4e3ed3,
+    0px 46px #cdc82d;
 }
 .monaco-list.list_id_6 .monaco-list-rows{
     background: #000 !important;
 }
 .monaco-list.list_id_7 .monaco-list-rows{
+    background: #000 !important;
+}
+.monaco-list.list_id_9 .monaco-list-rows{
     background: #000 !important;
 }
 .badge-content{
@@ -208,16 +210,13 @@ a.action-label{
     font-size: 30px;
     animation: squeeze3124 .9s both;
 }
-/* .monaco-action-bar .action-label{
-    padding: 0px;
-} */
 .monaco-list.list_id_2 .monaco-list-rows{
     background: transparent !important;
 }
 
 .monaco-editor .cursors-layer .cursor{
     width: 1px !important;
-    transition: all .2s linear;
+    transition: all .1s linear;
     visibility: inherit !important;
     animation: show-hidden 1s infinite linear alternate;
     background-color: transparent !important;
