@@ -1,0 +1,8 @@
+"workbench.colorCustomizations":{
+        "editor.background": "#000",
+        //terminal
+        "terminal.background": "#000", //màu nền trong terminal
+        "terminal.foreground": "#2cf503", //màu chữ trong terminal
+        "panel.background": "#2a2a2b", //màu panel của terminal
+        "panelTitle.activeBorder": "#00ff2a", //màu border bottom title dc active của terminal
+    }
