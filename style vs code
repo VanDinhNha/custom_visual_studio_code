@@ -3,13 +3,13 @@
     --gradient-dir2: 90deg;
     --gradient-dir3: -45deg;
   }
-  .mtk1{
+  /* .mtk1{
     color: transparent;
     background-image: linear-gradient(to right top, #9b0101, #5400b4, #04b0f5);
     background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
-  }
+  } */
   .mtk3 {
     color: transparent;
     background-image: linear-gradient(to right top, #c29ffd, #ffb4dc, #fef0d1);
@@ -124,7 +124,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
-    background-position: 50% 90%;
+    background-position: right center;;
 }
 .editor-container{
     background-color: #000 !important;
@@ -189,7 +189,8 @@ a.action-label{
     background-color: #000 !important; 
 }
 .titlebar-container {
-    background-color: #000;
+    /* background-color: #000; */
+    background-image: linear-gradient(to right, rgba(71, 0, 124, 1),rgba(30, 31, 53, 1), rgba(30, 31, 53, 1));
 }
 
 .monaco-breadcrumbs {
