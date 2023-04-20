@@ -39,7 +39,13 @@
     background-clip: text;
     -webkit-text-fill-color: transparent;
   }
-  
+  .mtk14 {
+    color: transparent;
+    background-image: linear-gradient(var(--gradient-dir1), #f88d13, #f51b1b);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
 
   .mtk16 {
     color: transparent;
@@ -81,6 +87,10 @@
 
 .tabs-container {
     background: #000;
+}
+
+.has-background-color{
+    background-color: #000 !important;
 }
 
 .items-container {
@@ -125,6 +135,14 @@
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: right center;;
+}
+.monaco-workbench .part.editor>.content .editor-group-container.empty.active{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("https://wallpapercave.com/wp/wp6113657.jpg") !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: right center;
 }
 .editor-container{
     background-color: #000 !important;
