@@ -1,8 +1,160 @@
-"workbench.colorCustomizations":{
-        "editor.background": "#000",
-        //terminal
-        "terminal.background": "#000", //màu nền trong terminal
-        "terminal.foreground": "#2cf503", //màu chữ trong terminal
-        "panel.background": "#2a2a2b", //màu panel của terminal
-        "panelTitle.activeBorder": "#00ff2a", //màu border bottom title dc active của terminal
-    }
+"workbench.iconTheme": "material-icon-theme",
+  "editor.formatOnSave": true,
+  "workbench.colorCustomizations": {
+    //cây thư mục
+    // "sideBar.background": "#000000", //màu nền cây thư mục
+    // "sideBarTitle.foreground": "#c605ec", // màu chữ title của cây thư mục
+    // "sideBarSectionHeader.background": "#313131", //màu nền header của section trên cây thư mục
+    // //giao diện code
+     "editor.background": "#000", //màu nền giao diện code
+    // "editorLineNumber.foreground": "#b410dd", // màu số của của dòng code trong giao diện code
+    // "editor.selectionBackground": "#0df3e849", //màu nền của dòng dc tô chọn
+    // "editor.selectionHighlightBackground": "#11490f57", // màu nền của chữ dc chọm hoặc giống chữ dc tô chọn
+    // "editor.foldBackground": "#025c9180", //màu nền hàng khi thu gọn code
+    // "editor.wordHighlightBackground": "#e900c250", //màu nền chữ giống chữ có con trỏ chuột
+    // //terminal
+     "terminal.background": "#FFFFFF00", //màu nền trong terminal
+    // "terminal.foreground": "#2cf503", //màu chữ trong terminal
+    // "panel.background": "#2a2a2b", //màu panel của terminal
+    // "panelTitle.activeBorder": "#00ff2a", //màu border bottom title dc active của terminal
+    // //bar bên trái
+    // //"activityBar.background": "#000", //màu nền của thanh bar bên trái
+    // "activityBar.inactiveForeground": "#00abfa", //màu icon của thanh bar khi ko dc active
+    // "activityBar.foreground": "#03f824", //màu icon của thanh bar khi dc active
+    // "activityBar.activeBorder": "#d800a2fb", //màu border left của icon thanh bar khi dc active
+    // "activityBar.activeBackground": "#000000", //màu background của icon thanh bar khi dc active
+    // "activityBarBadge.background": "#f14906", //màu background của số trên thanh bar
+    // "activityBarBadge.foreground": "#F8F8F2", //màu số trên thanh bar
+    // //tap
+    // "tab.activeBorderTop": "#00aef3", //màu border top của tab dc active
+    // "tab.activeBackground": "#00b3ff42", // màu nền của tab dc active
+    // "tab.activeForeground": "#dddddb", // màu chữ của tab dc active
+    // "tab.border": "#04eb7f", // màu border hai bên của tab
+    // //"tab.inactiveBackground": "#0000008f", //màu nền của tab ko dc active
+    // "tab.inactiveForeground": "#38805e" // màu chữ của tab ko dc active
+    //
+  },
+  /*"editor.tokenColorCustomizations": {
+        //để chọn đối tượng cần chỉnh màu: ctrl+Shift+p nhập "Developer: Inspect Editor Tokens and Scopes"
+        "[Dracula darker contrast]": {
+            "textMateRules": [
+                { //màu của string
+                    "scope": "string",
+                    "settings": {
+                        "foreground": "#f356568c",
+                        "fontStyle": "italic"
+                    }
+                },
+                { //màu của ngoặt kép hoặc ngoặt đơn mở
+                    "scope": "punctuation.definition.string.begin",
+                    "settings": {
+                        "foreground": "#f035068c"
+                    }
+                },
+                { // màu của ngoặt kép hoặc ngoặt đơn đóng
+                    "scope": "punctuation.definition.string.end",
+                    "settings": {
+                        "foreground": "#f035068c"
+                    }
+                },
+                { //màu của thuộc tính bên trong thẻ
+                    "scope": "entity.other.attribute-name",
+                    "settings": {
+                        "foreground": "#0bf5e2"
+                    }
+                },
+                { //màu tên của function
+                    "scope": "entity.name.function",
+                    "settings": {
+                        "foreground": "#3f6ef0"
+                    }
+                },
+                { // màu "//" trong comment
+                    "scope": "punctuation.definition.comment",
+                    "settings": {
+                        "foreground": "#48f342",
+                    }
+                },
+                { //màu comment
+                    "scope": "comment",
+                    "settings": {
+                        "foreground": "#48f342",
+                        "fontStyle": "italic"
+                    }
+                },
+                { // màu của thẻ trong html
+                    "scope": "entity.name.tag",
+                    "settings": {
+                        "foreground": "#f7409b"
+                    }
+                },
+                { //màu của biến trong php
+                    "scope": "variable",
+                    "settings": {
+                        "foreground": "#d046f3"
+                    }
+                },
+                { // màu thể mở php
+                    "scope": "punctuation.section.embedded.begin",
+                    "settings": {
+                        "foreground": "#f7409b"
+                    }
+                },
+                { // màu thể đóng php
+                    "scope": "punctuation.section.embedded.end source.php",
+                    "settings": {
+                        "foreground": "#f7409b"
+                    }
+                },
+                { // màu thể đóng php
+                    "scope": "punctuation.section.embedded.end",
+                    "settings": {
+                        "foreground": "#f7409b"
+                    }
+                }
+            ]
+        }
+    },*/
+  "editor.lineHeight": 30,
+  "editor.letterSpacing": 0.5,
+  "workbench.colorTheme": "Evondev Dracula High Contrast",
+  "editor.fontSize": 16,
+  "vscode_custom_css.imports": [
+    "file:///C:/Users/Admin/Documents/custom_vscode/style.css"
+  ],
+  "background.style": {
+    "content": "''",
+    "pointer-events": "none",
+    "position": "absolute",
+    "z-index": "99999",
+    "background-position": "center",
+    "background-size": "100% 100%",
+    //"background-repeat": "no-repeat",
+    "opacity": 0.5
+  },
+  // "background.customImages": [
+  //     "file:///C:/Users/Admin/Documents/custom_vscode/background_vscode.png"
+  // ],
+  "background.useDefault": false,
+  "background.useFront": false,
+  "powermode.shake.enabled": false,
+  "powermode.explosions.size": 3.5,
+  "powermode.explosions.offset": 0.2,
+  "powermode.shake.intensity": 5,
+  "powermode.combo.counterSize": 6,
+  "powermode.explosions.enabled": false,
+  "git.enableSmartCommit": true,
+  "bracket-pair-colorizer-2.activeScopeCSS": [
+    "borderStyle : solid",
+    "borderWidth : 1px",
+    "borderColor : {color}",
+    "opacity: 0.5"
+  ],
+  "liveServer.settings.donotShowInfoMsg": true,
+  "explorer.confirmDelete": false,
+  "color-highlight.markerType": "underline",
+  "editor.fontLigatures": true,
+  "editor.fontFamily": "SF Mono, Consolas, 'Courier New', monospace",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "git.autofetch": true,
+  "workbench.editor.wrapTabs": true
